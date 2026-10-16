@@ -25,7 +25,6 @@ class LeakyIntegrateAndFireNeuron:
         return spike_fired, self.v_membrane
 
 
-# --- TESTING THE BRAIN CODE IN REAL TIME ---
 if __name__ == "__main__":
     # Initialize our virtual processing neuron
     neuron = LeakyIntegrateAndFireNeuron(threshold=20.0, decay_rate=0.85)
